@@ -30,4 +30,16 @@
             </qrz_onedayadmin_setup>
         </resources>
     </global>
+    <crontab>
+        <jobs>
+            <qrz_onedayadmin_deactivate_one_day_admins>
+                <schedule>
+                    <cron_expr>0 0 * * *</cron_expr>
+                </schedule>
+                <run>
+                    <model>qrz_onedayadmin/cron::DeactivateOneDayAdmins</model>
+                </run>
+            </qrz_onedayadmin_deactivate_one_day_admins>
+        </jobs>
+    </crontab>
 </config>
