@@ -1,0 +1,16 @@
+{
+    "name": "qrz-io/onedayadmin",
+    "description": "Adds ability to give 1 day access to the admin panel to certain users.",
+    "license": "MIT",
+    "homepage": "https://github.com/qrz-io/onedayaccess",
+    "type": "magento-module",
+    "authors": [
+        {
+            "name": "Cristian Quiroz",
+            "email": "cris@qrz.io"
+        }
+    ],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}
