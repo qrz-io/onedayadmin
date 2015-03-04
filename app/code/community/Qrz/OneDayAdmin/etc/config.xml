@@ -21,5 +21,13 @@
                 <class>Qrz_OneDayAdmin_Model</class>
             </qrz_onedayadmin>
         </models>
+        <resources>
+            <qrz_onedayadmin_setup>
+                <setup>
+                    <module>Qrz_OneDayAdmin</module>
+                    <class>Mage_Core_Model_Resource_Setup</class>
+                </setup>
+            </qrz_onedayadmin_setup>
+        </resources>
     </global>
 </config>
