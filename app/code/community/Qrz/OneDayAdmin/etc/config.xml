@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Qrz_OneDayAdmin>
+            <version>0.1.0</version>
+        </Qrz_OneDayAdmin>
+    </modules>
+    <global>
+        <helpers>
+            <qrz_onedayadmin>
+                <class>Qrz_OneDayAdmin_Helper</class>
+            </qrz_onedayadmin>
+        </helpers>
+        <blocks>
+            <qrz_onedayadmin>
+                <class>Qrz_OneDayAdmin_Block</class>
+            </qrz_onedayadmin>
+        </blocks>
+        <models>
+            <qrz_onedayadmin>
+                <class>Qrz_OneDayAdmin_Model</class>
+            </qrz_onedayadmin>
+        </models>
+    </global>
+</config>
