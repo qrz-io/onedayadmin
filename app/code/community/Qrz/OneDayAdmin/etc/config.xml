@@ -42,4 +42,11 @@
             </qrz_onedayadmin_deactivate_one_day_admins>
         </jobs>
     </crontab>
+    <default>
+        <qrz_onedayadmin>
+            <general>
+                <one_day_admin_roles>OneDayAdmin</one_day_admin_roles>
+            </general>
+        </qrz_onedayadmin>
+    </default>
 </config>
