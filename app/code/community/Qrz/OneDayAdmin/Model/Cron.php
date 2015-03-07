@@ -9,7 +9,8 @@ class Qrz_OneDayAdmin_Model_Cron
      */
     public function deactivateOneDayAdmins()
     {
-        $oneDayAdminUserIdArray = $this->getAdminRolesModel()->load('One Day Admin', 'role_name')
+        $oneDayAdminUserIdArray = $this->getAdminRolesModel()
+            ->load(Qrz_OneDayAdmin_Helper_Data::ONE_DAY_ADMIN_ROLE_NAME, 'role_name')
             ->getRoleUsers();
 
         $oneDayAdminUsers = $this->getAdminUserModel()->getCollection()
