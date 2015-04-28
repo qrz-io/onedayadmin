@@ -1,4 +1,7 @@
 # Qrz_OneDayAdmin
+
+[![Scrutinizer Code Quality](https://img.shields.io/scrutinizer/g/qrz-io/onedayadmin.svg?style=flat-square)](https://scrutinizer-ci.com/g/qrz-io/onedayadmin/)
+
 Magento module that allows you to grant 1 day admin access to some accounts.
 
 # How it works
