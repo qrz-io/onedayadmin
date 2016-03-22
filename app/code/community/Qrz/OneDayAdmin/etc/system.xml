@@ -22,6 +22,14 @@
                     <show_in_website>0</show_in_website>
                     <show_in_store>0</show_in_store>
                     <fields>
+                        <frequency>
+                            <label>Cleanup Cron Frequency</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>40</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>0</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </frequency>
                         <one_day_admin_roles translate="label">
                             <label>One Day Admin Roles</label>
                             <frontend_type>multiselect</frontend_type>

@@ -34,7 +34,7 @@
         <jobs>
             <qrz_onedayadmin_deactivate_one_day_admins>
                 <schedule>
-                    <cron_expr>0 0 * * *</cron_expr>
+                    <config_path>qrz_onedayadmin/general/frequency</config_path>
                 </schedule>
                 <run>
                     <model>qrz_onedayadmin/cron::DeactivateOneDayAdmins</model>
@@ -46,6 +46,7 @@
         <qrz_onedayadmin>
             <general>
                 <one_day_admin_roles>OneDayAdmin</one_day_admin_roles>
+                <frequency>0 0 * * *</frequency>
             </general>
         </qrz_onedayadmin>
     </default>
